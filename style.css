@@ -43,6 +43,7 @@ ul li {
 
 }
 
+
 ul li a{
 	font-size: 15px;
 	text-decoration: none;
@@ -132,25 +133,25 @@ color: #ffffff;
 
 }
 
-.about-content h2{
+.space{
 	margin-top: 100px;
-	margin-bottom: 50px;
+}
+
+.about-content h2{
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	color: #ffffff;
 }
-.about-content img{
-	width: 100%;
-	height: 50%;
-}
 
 .about-content p{
 	display: flex;
 	justify-content: center;
-	margin-bottom: 200px;
 }
 
+.cases {
+	color: #8F8B8B;
+}
 .queryH1{
 	font-family: 'Tauri', sans-serif;
 	color: #39476A;
@@ -244,4 +245,12 @@ tr:nth-child(odd){
 	display:flex;
 	justify-content: center;
 	align-items: center;
+}
+
+
+
+.about-content img{
+	width: 70%;
+	display: flex;
+	align-content: center;
 }
